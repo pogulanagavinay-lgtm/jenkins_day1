@@ -10,3 +10,11 @@ class Main {
     System.out.println(first + " + " + second + " = "  + sum);
   }
 }
+
+public class Main {  
+    public static void main(String[] args) {  
+        String numberString = "2025";  
+        int number = Integer.parseInt(numberString);  
+        System.out.println("Parsed integer: " + number);  
+    }  
+}  
